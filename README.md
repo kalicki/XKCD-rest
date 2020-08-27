@@ -10,14 +10,13 @@ Get specified: https://xkcd.com/NUM_ID/info.0.json
 ## Docker
 
 - Build: `docker build -t xkcd-api .`
-- Run: `docker run -p 3080:3080 xkcd-api`
+- Run: `docker run -p 3000:3000 xkcd-api`
 
 ## CLI
 
 - Install Node and Yarn
-- `yarn install`
-- In terminal run: `node index.js` or `yarn start`
-- Check expose localhost in terminal
+- Navigate to the project root and run: `yarn install && yarn start`
+- Check the logs at the terminal for the link, default: `localhost:3000`
 
 ## Examples
 
