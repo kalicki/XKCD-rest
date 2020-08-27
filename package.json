@@ -1,0 +1,32 @@
+{
+  "name": "simple-xkcd-rest",
+  "private": true,
+  "version": "0.0.1",
+  "author": "Filipe Kalicki <filipe.kalicki@gmail.com>",
+  "engines": {
+    "node": ">=v12.18.3"
+  },
+  "keywords": [
+    "xkcd",
+    "comics",
+    "api",
+    "rest",
+    "lowdb",
+    "polka"
+  ],
+  "scripts": {
+    "start": "node -r esm index.js",
+    "test": "node -r esm index.test.js"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "fs": "^0.0.1-security",
+    "lowdb": "^1.0.0",
+    "node-fetch": "^2.6.0",
+    "polka": "^0.5.2"
+  },
+  "devDependencies": {
+    "supertest": "^4.0.2",
+    "uvu": "^0.4.0-next.3"
+  }
+}
