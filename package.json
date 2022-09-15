@@ -22,7 +22,7 @@
     "esm": "^3.2.25",
     "fs": "^0.0.1-security",
     "lowdb": "^1.0.0",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.7",
     "polka": "^0.5.2"
   },
   "devDependencies": {
